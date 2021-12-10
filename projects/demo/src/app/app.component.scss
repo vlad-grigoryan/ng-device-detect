@@ -1,0 +1,61 @@
+:host {
+  position: relative;
+  display: block;
+}
+#demoApp {
+  max-width: 600px;
+  padding-top: 40px;
+  .demo-container {
+    .github-logo{
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      img {
+        width: 40px;
+        transform: rotate(45deg);
+      }
+      &:hover {
+        img {
+          opacity: 0.6;
+        }
+      }
+    }
+    .badges {
+      a {
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  .device-icon {
+    text-align: center;
+    padding: 20px;
+
+    .fa {
+      font-size: 100px;
+    }
+  }
+
+  .user-agent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &__input {
+      flex: 1;
+      input {
+        width: 100%;
+      }
+    }
+    &__buttons {
+      display: flex;
+      justify-content: flex-end;
+      > button {
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

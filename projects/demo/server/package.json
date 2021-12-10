@@ -1,0 +1,22 @@
+{
+  "name": "ng-device-detect-ssr",
+  "version": "0.0.1",
+  "description": "Ng Device Detect Demo SSR",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node server/main.js"
+  },
+  "dependencies": {
+    "@nguniversal/express-engine": "^10.0.2",
+    "express": "^4.15.2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
